@@ -1,0 +1,19 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("RECrystallize", "zhCN")
+if not L then return end
+
+L["Start scan"] = "开始扫描"
+L["Scan unavailable"] = "扫描不可用"
+L["Scan finished!"] = "扫描完成！"
+L["Waiting..."] = "等待中..."
+L["Scan time"] = "扫描时间"
+L["New items"] = "新物品"
+L["Updated items"] = "更新物品"
+L["Removed items"] = "移除物品"
+L["Always display the price of the entire stock"] = "始终显示整体库存的价格"
+L["When enabled the functionality of the SHIFT button will be swapped."] = "如果启用，则shift键的功能将互换"
+L["Data freshness"] = "数据时效"
+L["The number of days after which old data will be deleted."] = "该天数前的旧数据将被删除"
+L["Scanning speed"] = "扫描速度"
+L["Setting this value lower might speed up the scanning process but also can cause disconnects."] = "将此值设置得较低会加快扫描过程，但也可能导致断开连接"
+L["Purge this server database"] = "清除此服务器数据库"
+L["WARNING! This operation is not reversible!"] = "警告！该操作不可逆！"
